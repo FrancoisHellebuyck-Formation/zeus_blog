@@ -1,17 +1,70 @@
-# The URL the site will be built for
+# ── Obligatoire ──────────────────────────────────────────────────────────────
 base_url = "https://FrancoisHellebuyck-Formation.github.io/zeus_blog"
+title = "Zeus Blog"
+theme = "papermod"
 
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+# ── Fonctionnalités ───────────────────────────────────────────────────────────
+compile_sass = true
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+# ── Taxonomies ────────────────────────────────────────────────────────────────
+taxonomies = [
+    {name = "tags", feed = true},
+]
 
+# ── Recherche ─────────────────────────────────────────────────────────────────
+[search]
+include_title = true
+include_description = false
+include_path = false
+include_content = true
+index_format = "elasticlunr_json"
+
+# ── Markdown & coloration syntaxique ─────────────────────────────────────────
 [markdown]
 
 [markdown.highlighting]
-theme = "terminimal"
+highlight_code = true
+theme = "ayu-dark"
 
+# ── Variables du thème PaperMod ───────────────────────────────────────────────
 [extra]
-# Put all your custom variables here
 author = "François H."
+
+[extra.papermod]
+title = "Zeus Blog"
+default_theme = "auto"
+theme = "dark"
+language_direction = "ltr"
+keywords = ["ML", "RL", "AI", "blog"]
+
+show_theme_toggle = true
+show_scroll_to_top = true
+show_code_copy_buttons = true
+show_reading_time = true
+show_word_count = false
+show_post_nav_links = true
+show_post_meta = true
+show_post_edit_button = false
+show_archive_year_count = true
+show_archive_month_count = true
+default_toc_open = false
+date_format = "%Y-%m-%d"
+edit_post_url = "https://github.com/FrancoisHellebuyck-Formation/zeus_blog/tree/main"
+
+home_title = "Zeus Blog"
+home_content = "Parce que conquérir l'univers, ça commence par comprendre l'IA agentique. Notes de terrain d'un chat trop ambitieux."
+
+navigation = [
+    { url = "$BASE_URL/posts", title = "Posts" },
+    { url = "$BASE_URL/archive", title = "Archive" },
+    { url = "$BASE_URL/tags", title = "Tags" },
+    { url = "$BASE_URL/search", title = "Search" },
+    { url = "$BASE_URL/about", title = "À propos" },
+]
+
+social_icons = [
+    { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+]

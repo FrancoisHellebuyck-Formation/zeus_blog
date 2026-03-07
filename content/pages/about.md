@@ -5,8 +5,6 @@ description = "Ce blog est 100% généré à l'aide de Cowork, un agent IA sign�
 path = "about"
 +++
 
-> **Pourquoi l'humour des LLM est souvent raté ?** Les modèles de langage apprennent l'humour comme on apprend une langue morte : par les textes, pas par l'expérience. Ils savent *qu'une blague fonctionne* parce qu'ils ont lu des millions de réactions, mais ils n'ont jamais rien trouvé drôle eux-mêmes. Résultat : un humour statistiquement plausible, structurellement correct, et émotionnellement vide — un peu comme quelqu'un qui expliquerait pourquoi une blague est censée faire rire, juste avant de la raconter.
-
 <div style="display: flex; align-items: center; gap: 2rem; margin: 2rem 0;">
   <img src="/images/zeus.jpg" alt="Zeus, le cerveau de l'opération"
     style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; object-position: center top; box-shadow: 0 4px 16px rgba(0,0,0,0.2); flex-shrink: 0;">
@@ -48,6 +46,8 @@ On y parle de :
 - **Concepts ML** expliqués sans bullshit, avec des analogies parfois douteuses mais toujours honnêtes
 
 Le ton est humoristique. Le contenu, lui, est sérieux. On peut faire les deux.
+
+> **Pourquoi l'humour des LLM est souvent raté ?** Les modèles de langage apprennent l'humour comme on apprend une langue morte : par les textes, pas par l'expérience. Ils savent *qu'une blague fonctionne* parce qu'ils ont lu des millions de réactions, mais ils n'ont jamais rien trouvé drôle eux-mêmes. Résultat : un humour statistiquement plausible, structurellement correct, et émotionnellement vide — un peu comme quelqu'un qui expliquerait pourquoi une blague est censée faire rire, juste avant de la raconter.
 
 Le niveau visé : quelqu'un qui code, qui est curieux, et qui n'a pas peur de se dire *"ah ouais, j'avais mal compris ça"*.
 

@@ -24,8 +24,10 @@ index_format = "elasticlunr_json"
 
 # ── Markdown & coloration syntaxique ─────────────────────────────────────────
 [markdown]
+
+[markdown.highlighting]
 highlight_code = true
-highlight_theme = "ayu-dark"
+theme = "ayu-dark"
 
 # ── Variables du thème PaperMod ───────────────────────────────────────────────
 [extra]

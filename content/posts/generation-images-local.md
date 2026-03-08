@@ -8,6 +8,8 @@ draft = false
 tags = ["image-generation", "flux", "diffusers", "local", "diffusion", "quantization", "docker"]
 +++
 
+![Zeus, Maine Coon en quête de domination galactique](/images/zeus_portrait.png)
+
 Zeus a un problème.
 
 Il a un plan de conquête galactique, un Collectif Félin Mondial motivé, et zéro visuel pour ses slides de présentation. Les chats ne savent pas tenir un appareil photo. Il lui faut un générateur d'images. En local. Dans un conteneur. Parce que Zeus ne fait confiance à aucun cloud, et ne veut pas non plus que ses dépendances Python souillent son système hôte.

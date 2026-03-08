@@ -6,8 +6,7 @@ path = "about"
 +++
 
 <div style="display: flex; align-items: center; gap: 2rem; margin: 2rem 0;">
-  <img src="/images/zeus.jpg" alt="Zeus, le cerveau de l'opération"
-    style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; object-position: center top; box-shadow: 0 4px 16px rgba(0,0,0,0.2); flex-shrink: 0;">
+  {{ img_styled(path="images/zeus.jpg", alt="Zeus, le cerveau de l'opération", style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; object-position: center top; box-shadow: 0 4px 16px rgba(0,0,0,0.2); flex-shrink: 0;") }}
   <p style="margin: 0; font-size: 1.1rem; font-style: italic; line-height: 1.6;">Zeus, Maine Coon de son état, candidat sérieux à la domination galactique.</p>
 </div>
 

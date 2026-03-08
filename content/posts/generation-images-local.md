@@ -8,7 +8,7 @@ draft = false
 tags = ["image-generation", "flux", "diffusers", "local", "diffusion", "quantization", "docker"]
 +++
 
-![Zeus, Maine Coon en quête de domination galactique](/images/zeus_portrait.png)
+{{ img(path="images/zeus_portrait.png", alt="Zeus, Maine Coon en quête de domination galactique") }}
 
 Zeus a un problème.
 

@@ -11,7 +11,7 @@ mermaid = true
 tags = ["mcp", "agents", "protocole", "python", "llm", "image-generation", "flux", "docker", "sse"]
 +++
 
-![Zeus supervise son armurerie depuis le centre de commandement](/images/zeus_mcp_command_center.png)
+{{ img(path="images/zeus_mcp_command_center.png", alt="Zeus supervise son armurerie depuis le centre de commandement") }}
 
 [Dans l'épisode précédent](/posts/generation-images-local/), Zeus avait résolu son problème de visuels : une API FLUX.2-klein-4B conteneurisée sous Docker, qui tourne sur **alpha-server** et génère des portraits de l'armée féline en 20 à 40 secondes.
 

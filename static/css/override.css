@@ -38,11 +38,19 @@
     background-color: var(--tertiary);
 }
 
-/* Laisse la coloration syntaxique de Zola s'appliquer */
-.post-content pre code {
-    background: transparent !important;
-    color: inherit !important;
+/* Coloration syntaxique Zola — cible la classe générée par ayu-dark */
+pre[class],
+pre[style] {
+    background-color: #0D1017 !important;
+    margin: 10px auto;
+    border-radius: var(--radius);
 }
-.post-content .highlight:not(table) {
+pre[class] code,
+pre[style] code {
     background: transparent !important;
+    color: #BFBDB6 !important;
+    padding: 10px;
+    display: block;
+    overflow-x: auto;
+    font-size: 0.9em;
 }

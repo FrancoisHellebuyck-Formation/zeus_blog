@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "zeus-image-tools": {
+      "url": "http://alpha-server:8080/sse"
+    }
+  }
+}

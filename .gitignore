@@ -1,0 +1,21 @@
+# Zola — dossier de build
+public/
+
+# Zola — cache de build incrémental
+.zola_cache/
+
+# Environnement
+.env
+.env.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
